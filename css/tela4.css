@@ -1,0 +1,17 @@
+body{
+    background-color: #ffeaa7;
+
+}
+header{
+    background-color: blue;
+    text-align: center;
+}
+.container{
+    background-color: aliceblue;
+    border-radius: 1%;
+    margin-top: 2%;
+    
+}
+.o{
+    text-align: center;
+}

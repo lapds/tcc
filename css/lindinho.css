@@ -1,0 +1,83 @@
+.menun{
+    margin-top: 5%;
+    
+  }
+  
+  /* .teste label{
+    
+    margin-top: 4%;
+    
+  } */
+  
+  body{
+    background: #f1f2f6;
+    background-size: cover;
+  }
+  #centralizar_essa_bagaça{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:80vh ;
+    width: 90% ;
+  }
+  #login{
+    background-size: cover;
+    background: url('../img/back.jpg') no-repeat center center fixed;
+    color:white;
+  }
+  
+  h1{
+    text-align: center;
+  }
+  .main-section{
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 0;
+  }
+  
+  .modal-content{
+    background-color:#141414;
+    opacity:.9;
+    padding: 0 18px;
+    border-radius:2%;
+  
+  
+  }
+  .user-img img
+  { 
+    height: 120px;
+    width: 120px;
+  }
+  .user-img{
+    margin-top: -60px;
+    margin-bottom: 45px;
+  }
+      .form-group{
+  
+        margin-bottom: 25px;
+      }
+  /* 
+      .form-group input{
+        height: 42px;
+        border-radius: 2%;
+        border: 0;
+        font-size: 18p;
+        letter-spacing: 2px;
+        padding-left: 54px;
+      } */
+  .card{
+    margin-left: 15.5%;
+   margin-top: 2%;
+  }
+  a
+  { 
+  text-decoration:none; 
+  } 
+  
+    footer
+      {
+        background-color: #dfe6e9;
+        margin-top: 2%;      
+      }
+  
