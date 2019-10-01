@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Menu</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bonito.css">
+  <link rel="stylesheet" href="libs/MaterialDesign/css/materialdesignicons.css">
+  <link rel="stylesheet" href="libs/sweetalert2/dist/sweetalert2.css">
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="mae.html">
+      <img src="img/car.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      Mechanic Control
+      <ul>
+
+        <a class="btn btn-block btn-primary " href="index.html" tabindex="-1" aria-disabled="true">Sair</a>
+  </nav>
+  <br>
+  <br>
+  <div class="container-fluid" id="centralizar_essa_bagaça">
+  </div>
+  <script src="js/jquery-3.4.0.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="libs/sweetalert2/dist/sweetalert2.min.js"></script>
+  <!-- <script src="js/mask.js"></script> -->
+  <script>
+    $(document).ready(function () {
+      $('#centralizar_essa_bagaça').load('menu.html');
+
+    })
+  </script>
+</body>
+</html>

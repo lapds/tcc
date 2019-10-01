@@ -1,0 +1,45 @@
+<div class="row">
+    <div class="col-md-12">
+    <h1 >Ordem de Serviço</h1>
+    </div>
+  </div>
+  <form id="ordem">
+         <div class="form-group"> 
+         <DIV class="row" >
+            <div class="col-6">
+            <label for="exampleFormControlSelect1">Cliente:</label>
+            
+              <input type="text" class="form-control" name="nome" id="filtro" placeholder="Digite o nome do cliente">
+            </div>
+            <div class="col-6 col-md-2">
+                <button class="btn btn-filtro btn-info btn-lg "><i
+                  class="mdi mdi-file-find mdi-10px"></i></button>
+              </div>
+            </div>
+          </DIV>
+    
+    </div>
+  </div>
+ </form>
+
+ <div class="modal" id="modal-dados" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Clientes:</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Texto do corpo do modal, é aqui.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal"></button>
+        <button type="button" class="btn btn-primary">Salvar mudanças</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="ordem/controller/filtro.js"></script>

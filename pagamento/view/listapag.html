@@ -1,0 +1,61 @@
+<div class="row">
+    <div class="col-md-10">
+        <h1>Formas de Pagamento</h1>
+    </div>
+    <div class="col-md-2">
+            <button type="button" class="btn btn-cad btn-primary novo-pag">Novo</button>
+     
+    </div>
+  
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Descrição</th>
+            <th scope="col">Opções</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</th>
+            <td>Leandra Aparecida </td>
+            <td>
+                <button type="button" class="btn btn-success"><i
+                    class="mdi mdi-eye-outline mdi-10px"></i>Visualizar</button>
+            <button type="button" class="btn btn-edit btn-warning"><i
+                    class="mdi mdi-border-color mdi-10px"></i>Editar</button>
+            <button type="button" class="btn btn-danger"><i
+                    class="mdi mdi-trash-can mdi-10px"></i>Excluir</button>
+             
+            </td>
+        </tr>
+
+    </tbody>
+</table>
+<div class="modal fade" id="modal-dados" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-black">Título do modal</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary">Salvar mudanças</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        &copy; 2019 - Control Mechanic
+    </div>
+</div>
+<script src="pagamento/controller/listapag.js"></script>

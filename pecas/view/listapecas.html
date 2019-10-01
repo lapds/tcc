@@ -1,0 +1,63 @@
+<div class="row">
+        <div class="col-md-10">
+            <h1>Peças</h1>
+        </div>
+        <div class="col-md-2">
+                <button type="button" class="btn btn-cad btn-primary novo-peca">Novo</button>
+         
+        </div>
+       
+    </div>
+    
+    <table class="table"> 
+        <thead>
+            <tr>
+                <th scope="col" class="text-center">ID</th>
+                <th scope="col" class="text-center">Nome </th>
+                <th scope="col" class="text-center">Valor compra</th>
+                <th scope="col" class="text-center">Valor venda</th>
+                <th scope="col" class="text-center">Opções</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>KIT CORREIA DENTADA/ TUCSON </td>
+                <td>R$448,88</td>
+                <td>R$550,88</td>
+                <td>
+                    <button type="button" class="btn btn-success">Visualizar</button>
+                    <button type="button" class="btn btn-warning">Editar</button>
+                    <button type="button" class="btn btn-danger">Excluir</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="modal fade" id="modal-dados" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-black">Título do modal</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Salvar mudanças</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            &copy; 2019 - Control Mechanic
+        </div>
+    </div>
+    
+    
+    <script src="pecas/controller/listpecas.js"></script>
